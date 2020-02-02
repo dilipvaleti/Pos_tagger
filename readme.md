@@ -16,7 +16,11 @@ python postag-interactive.py
 ```
 python correctness.py data/Brown_tagged_dev.txt output/Brown_tagged_dev.txt
 ```
-
+### An auto testing using wiki module. 
+```
+python get-random-wikipedia-sentence.py <Optional sentences numerical value>
+#heredefault sentence number is 5, if you want wwe can give user defined value
+```
 ### Example
 
     Sentence > Hello, part-of-speech tagger! NLP is an exciting field of applicable science!
